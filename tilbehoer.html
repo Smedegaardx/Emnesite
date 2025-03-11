@@ -7,9 +7,35 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/layout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="topnav">
+        <a href="Index.html" class="active logotext">Cheaptails <img class="logo" src="IMGS/templogo.png" alt="logo" /></a>
+        <div id="myLinks">
+          <a class="navitem" href="cocktails.html">Cocktails</a>
+          <a class="navitem" href="alkohol.html">Alkohol</a>
+          <a class="navitem" href="glas.html">Glas</a>
+          <a class="navitem" href="tilbehoer.html">Tilbehør</a>
+          <a class="navitem" href="udstyr.html">Udstyr</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="Index.html"> </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+    </header>
     <main></main>
     <footer></footer>
   </body>

@@ -1,3 +1,29 @@
+
+/* Farver 
+--Blå #24A3BF
+--baggrund blå #C5D2DB
+--grøn #105904 
+--gul #F29A2E
+--orange #D96523
+--hvid  #F2F2F2
+ */
+
+ /* Fonts */
+@font-face {
+    font-family: "Hero";
+    src: url(/Fonts/Danfo.ttf);
+}
+
+@font-face {
+    font-family: "Overskrift";
+    src: url(/Fonts/Agbalumo.ttf)
+}
+
+@font-face {
+    font-family: "Bread";
+    src: url(/Fonts/Play.ttf);
+}
+
 /* Resets */
 *{
     margin: 0;
@@ -9,3 +35,62 @@ img{
     height: auto;
     display: block;
 }
+
+/* Hamburger menu, med hjælp fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+
+
+
+.topnav{
+    overflow: hidden;
+    position: relative;
+    background-color: #C5D2DB;
+    font-family: "Overskrift";
+}
+
+.topnav #myLinks{
+    display: none;
+}
+
+.topnav a{
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topnav a.icon {
+    background: #C5D2DB;
+    display: block;
+    position: absolute;
+    right: -1;
+    top: 0;
+    font-size: 40px;
+    color: black;
+}
+
+.logo{
+    background: #C5D2DB;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 80px;
+}
+
+.logotext{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Hero";
+    color: #105904 ;
+    margin-top: 5px;
+}
+
+.navitem{
+font-size: 20px;
+color: black;
+border-bottom-style: solid;
+border-color: black;
+border-width: 1px;
+}
+
+  
+
