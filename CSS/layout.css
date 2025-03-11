@@ -1,0 +1,10 @@
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.socials{
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
