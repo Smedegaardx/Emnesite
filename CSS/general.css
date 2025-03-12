@@ -40,7 +40,91 @@ body{
     background-color: #C5D2DB;
 }
 
-/* Hamburger menu, med hjælp fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+main,footer{
+    margin: 0 2rem;
+}
+
+h1,h2,h3{
+    font-family: "Overskrift";
+}
+
+p,a{
+    font-family: "Bread";
+}
+
+h1{
+    text-align: center;
+}
+
+h1 span{
+    background-color: #F29A2E;
+    border-radius: 1rem;
+    padding: 0 0.4rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.element{
+    margin: 2rem 0;
+}
+
+.btn{
+    background-color: #105904;
+    border-radius: 3rem;
+    color: #F2F2F2;
+    padding: 1rem;
+    font-family: "Overskrift";
+    font-size: 1.5rem;
+}
+
+.randbtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    
+}
+/* Styling af cocktail cards */
+
+.cocktailcard{
+    background-color: #24A3BF;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.cocktailcard img{
+    border-bottom-style: solid;
+}
+
+.cocktailcontent{
+    margin-top: 1rem;
+}
+
+.cocktailcontent span{
+    background-color: #F29A2E;
+    border-radius: 3rem;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+}
+
+.sealle{
+    margin-right: -2rem;
+    background-color: #D96523;
+    font-family: "Overskrift";
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+/* Hamburger menu, og general styling af header, med hjælp fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
 
 .topnav{
     overflow: hidden;
