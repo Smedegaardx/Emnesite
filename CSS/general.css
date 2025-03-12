@@ -41,7 +41,12 @@ body{
 }
 
 main,footer{
-    margin: 0 2rem;
+    padding: 0 2rem;
+}
+
+footer{
+    border-top-style: groove;
+    padding-top: 1rem;
 }
 
 h1,h2,h3{
