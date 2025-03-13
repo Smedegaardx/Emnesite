@@ -96,12 +96,19 @@ a{
     font-size: 1.5rem;
 }
 
+.btn:hover{
+    background-color: #5EA153;
+}
+
+.btn:active{
+    box-shadow: 5px 10px 10px black inset;
+}
+
 .randbtn{
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
     font-size: 2rem;
-    
 }
 
 /* Styling af cocktail cards */
@@ -136,6 +143,10 @@ a{
     flex-direction: column;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.sealle:hover{
+    background-color: #9E562D;
 }
 
 /* Hamburger menu, og general styling af header, med hjælp fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
