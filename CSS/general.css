@@ -30,6 +30,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 img{
     max-width: 100%;
     height: auto;
@@ -76,6 +77,16 @@ a{
     margin: 2rem 0;
 }
 
+.topgap{
+    margin-top: 2rem;
+}
+
+.bottomgap{
+    margin-bottom: 2rem;
+}
+
+/* Knapper */
+
 .btn{
     background-color: #105904;
     border-radius: 3rem;
@@ -92,13 +103,12 @@ a{
     font-size: 2rem;
     
 }
-/* Styling af cocktail cards */
 
+/* Styling af cocktail cards */
 .cocktailcard{
     background-color: #24A3BF;
     border-radius: 25px;
     padding: 1rem;
-    margin: 2rem 0;
 }
 
 .cocktailcard img{
@@ -128,9 +138,7 @@ a{
     border-bottom-right-radius: 0;
 }
 
-
 /* Hamburger menu, og general styling af header, med hjælp fra w3schools https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
-
 .topnav{
     overflow: hidden;
     position: relative;
