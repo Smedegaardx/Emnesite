@@ -149,6 +149,9 @@ a{
     background-color: #24A3BF;
     border-radius: 25px;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .cocktailcard img{
