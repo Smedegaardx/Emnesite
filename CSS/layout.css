@@ -43,41 +43,56 @@
 
     .indholdcard{
         margin-right: 0.2rem;
-        width: 40%;
+        width: 45%;
+    }
+    
+    .indholdcard img{
+        height: 300px;
+        width: auto;
     }
     
 }
+
 @media (width >=900px){
     .flexleft{
         display: flex;
         justify-content: flex-start;
     }
 
-.flexbox{
+    .flexbox{
     display: flex;
     justify-content: space-around;
-}
+    }
 
-.grid_1-1-1-1{
+    .grid_1-1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
-}
+    }
 
-.grid_1-1{
+    .grid_1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+    }
 
-.grid_3-3-3-1{
+    .grid_3-3-3-1{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 1fr;
     gap: 2rem;
-}
+    }
 
-.socials{
+    .socials{
     position: absolute;
     right: 0;
     width: 100px;
-}
+    }
+
+    .indholdcard{
+    width: 25%;
+    }
+
+    .indholdcard img{
+    height: 500px;
+    width: auto;
+    }
 }

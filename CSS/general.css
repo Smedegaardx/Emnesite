@@ -60,6 +60,7 @@ p,a{
 
 h1{
     text-align: center;
+    margin: 1rem;
 }
 
 h1 span{
@@ -67,6 +68,8 @@ h1 span{
     border-radius: 1rem;
     padding: 0 0.4rem;
 }
+
+h2{margin-bottom: 1rem;}
 
 a{
     text-decoration: none;
@@ -102,14 +105,18 @@ a{
     background-color: #24A3BF;
     border-radius: 25px;
     padding: 1rem;
-    width: 25%;
     margin-right: 1rem;
     margin-bottom: 1.5rem;
-    margin: 1.5rem 1rem 1.5rem 0
+    margin: 1.5rem 1rem 1.5rem 0;
 }
 
 .indholdcard img{
-    border-bottom-style: solid; 
+    margin: auto;
+}
+
+.indholdcard h2{
+    border-top-style: solid;
+    margin-bottom: 0;
 }
 /* Knapper */
 
@@ -216,7 +223,7 @@ a{
 }
 
 .logotext{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     font-family: "Hero";
     color: #105904 ;
