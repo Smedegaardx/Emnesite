@@ -88,6 +88,10 @@ a{
     margin-bottom: 2rem;
 }
 
+.centertext{
+    text-align: center;
+}
+
 /* Scrollmenu og indhold til siderne Alkohol, Glas, Udstyr og cocktails */
 
 .scrollmenu{
