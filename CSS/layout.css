@@ -9,6 +9,12 @@
         justify-content: space-around;
     }
 
+    .flexend{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
     .grid_3-3-3-1{
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -21,6 +27,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .grid_1-1_mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .socials{
         position: absolute;
         right: 0;
@@ -64,6 +76,12 @@
     justify-content: space-around;
     }
 
+    .flexend{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
     .grid_1-1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -98,5 +116,12 @@
 
     .bread{
         max-width: 40%;
+    }
+
+    .background{
+        background-image: url("/IMGS/Baggrundbillede.png");
+        background-repeat: no-repeat;
+        background-position-y: -17%;
+        background-size: contain;
     }
 }
