@@ -123,5 +123,10 @@
         background-repeat: no-repeat;
         background-position-y: -17%;
         background-size: contain;
+        max-width: none;
+    }
+
+    .main{
+        max-width: 1440px;
     }
 }

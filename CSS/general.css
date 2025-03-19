@@ -95,7 +95,7 @@ a{
 /* Scrollmenu og indhold til siderne Alkohol, Glas, Udstyr og cocktails */
 
 .scrollmenu{
-  overflow: scroll;
+  overflow-x: scroll;
   white-space: nowrap;
   margin-bottom: 1rem;
   scrollbar-color: #F29A2E #C5D2DB;
