@@ -110,7 +110,7 @@
     }
 
     .indholdcard img{
-    height: 500px;
+    max-height: 500px;
     width: auto;
     }
 
@@ -123,10 +123,14 @@
         background-repeat: no-repeat;
         background-position-y: -17%;
         background-size: contain;
-        max-width: none;
     }
 
-    .main{
-        max-width: 1440px;
+    .cocktail-card{
+        width: 30%;
+    }
+
+    .cocktail-card img{
+        max-height: 500px;
+        width: auto;
     }
 }
