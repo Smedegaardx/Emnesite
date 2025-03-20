@@ -92,6 +92,11 @@ a{
     text-align: center;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Scrollmenu og indhold til siderne Alkohol, Glas, Udstyr og cocktails */
 
 .scrollmenu{
@@ -246,10 +251,7 @@ border-color: black;
 border-width: 1px;
 }
 
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
   
 
